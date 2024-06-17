@@ -1,0 +1,19 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+  "contact": "node src/index.js",
+  "contact_list": "node src/index.js"
+  },
+  "bin": "contact_list",
+  "keywords": [],
+  "author": "vihanga nethusara",
+  "license": "ISC",
+  "description": "contact listconsole application",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "yargs": "^17.7.2"
+  }
+}
